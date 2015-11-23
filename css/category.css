@@ -1,0 +1,132 @@
+#products .box {
+    width: 152px;
+}
+
+#products .box:nth-of-type(1), #products .box:nth-of-type(2), #products .box:nth-of-type(3), #products .box:nth-of-type(4)
+{
+    border-top: 1px solid #dddddd!important;
+}
+
+
+#products .box:nth-of-type(5n)
+{
+    border-right: 0px solid #dddddd;
+}
+
+#products .box:nth-of-type(4n)
+{
+    border-right: 1px solid #dddddd!important;
+}
+
+#products .vmz-add-to-cart {
+  left: 25px;
+}
+
+
+
+
+
+#cat-sidebar .title {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: normal;
+    color: #0f62ab;
+    line-height: 35px;
+    border: 1px solid #ddd;
+    border-bottom: 0;
+    padding: 0 10px;
+}
+#cat-sidebar li a {
+    font-size: 13px;
+    color: #444444;
+    background: url(../images/popup-list-style-title.png) 0 no-repeat;
+    padding-left: 10px;
+}
+#cat-sidebar {
+    line-height: 22px;
+    width: 230px;
+    border-top: 3px solid #0f62ab;
+    top: 0;
+    background: #fff;
+}
+
+#cat-sidebar ul {
+    border: 1px solid #ddd;
+    padding: 0 10px;
+}
+
+#cat-sidebar li .count {
+    font-size: 13px;
+    color: #444444;
+}
+
+.main-thumbnail {
+
+}
+.main-thumbnail img {
+    width: 733px;
+    height: 210px;
+}
+
+.right .second-filter {
+    margin: 20px 0;
+    border-bottom: 1px solid #d7d7d7;
+    padding-bottom: 15px;
+}
+
+.right .second-filter select {
+    border: 1px solid #dddddd;
+    padding: 3px;
+    width: 193px;
+    margin-right: 15px;
+    color: #666;
+    background: #FDFDFC url(../images/filterby.png) no-repeat 175px center;
+    -webkit-appearance: none;
+    -moz-appearance:none;
+}
+#middle .right {
+    width: 733px;
+}
+
+.second-filter .submit {
+    padding: 5px 10px;
+    background: #0f62ab;
+    border: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.wp-pagenavi {
+    font-size: 13px;
+    font-family: arial;
+    font-weight: bold;
+    display: block;
+    margin: 20px 0;
+}
+.wp-pagenavi .current,.wp-pagenavi .page-numbers:hover {
+    background: #0f62ab!important;
+    color: #fff!important;
+}
+
+
+
+.wp-pagenavi .page-numbers{
+    background:#e9e9e9;
+    color:#444;
+    padding: 3px 7px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.wp-pagenavi .next,.wp-pagenavi .prev{
+    color: #666;
+    background:none;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.wrap-category-galery .content {
+    display:none;
+}

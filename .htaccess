@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteRule ^nhom-san-pham/([a-zA-Z0-9_-]+)-([0-9]+).html$ ?page=nsp&idn=$2
+RewriteRule ^loai-san-pham/([a-zA-Z0-9_-]+)-([0-9]+).html$ ?page=lsp&idl=$2
+RewriteRule ^san-pham/([a-zA-Z0-9_-]+)-([0-9]+).html$ ?page=ct&id=$2
+RewriteRule ^gioi-thieu.html ?page=gioi-thieu
+RewriteRule ^khuyen-mai.html ?page=khuyen-mai
+RewriteRule ^tin-tuc.html ?page=tin-tuc
+RewriteRule ^lien-he.html ?page=lien-he
+RewriteRule ^tuyen-dung.html ?page=tuyen-dung
+RewriteRule ^don-hang.html  ?page=don-hang
+RewriteRule ^ho-tro.html  ?page=ho-tro

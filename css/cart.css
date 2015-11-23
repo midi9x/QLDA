@@ -1,0 +1,219 @@
+#cart-wrap{
+	/* width:980px; */
+	margin:auto;
+	border-radius: 5px;
+}
+
+
+#right{
+	float:left!important;
+	width:230px;
+}
+
+#cart-content {
+//width: 783px;
+margin-top: 11px;
+text-align: center;
+font-size: 13px;
+}
+
+#cart-title {
+background: #3598DB;
+line-height: 33px;
+height: 33px;
+color: #FFF;
+font-weight: bold;
+text-transform: uppercase;
+border: 1px solid #fff;
+overflow: hidden;
+border-bottom: 0;
+}
+#cart-title .floatleft {
+border: none;
+height: 55px;
+padding: 0 5px;
+height: 53px!important;
+}
+
+#cart-content .floatleft {
+border-right: 1px solid #D6D6D6;
+height: 140px;
+padding: 0 5px;
+}
+
+#cart-content .image {
+width: 160px;
+padding: 0!important;
+}
+
+.floatleft {
+float: left;
+}
+
+#cart-content .item {
+width: 146px;
+line-height: 18px;
+font-weight: bold;
+color: #363636;
+}
+
+#cart-content .price {
+width: 146px;
+}
+
+#cart-content .num {
+width: 90px;
+}
+
+#cart-content .total-price {
+width: 146px;
+}
+
+#cart-content .action {
+width: 230px;
+}
+
+#cart-content .num input {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+#view-cart-content .inputbox,#view-cart-content  input[type="text"],#view-cart-content  input[type="email"],#view-cart-content input[type="password"] {
+color: #777;
+background: #EEE url(../images/stripe.png) repeat;
+border: 1px dotted #CCC;
+box-shadow: inset -1px -1px 0 #FFF, inset 1px 1px 0 #FFF;
+margin: 0 auto;
+padding: 4px 7px;
+//-moz-transition: all .4s ease-in;
+//-o-transition: all .4s ease-in;
+//-webkit-transition: all .4s ease-in;
+//transition: all .4s ease-in;
+}
+
+
+
+#cart-content .image img{
+	cursor:pointer;
+	width: 115px;  
+	margin-top: 10px;
+	padding: 2px;  border: 1px solid #E9E9E9;
+}
+#cart-handles {
+clear: both;
+margin: 0;
+padding: 40px 0px;
+}
+
+#cart-handles .vmz-add-cart {
+background-image: none;
+padding: 6px 10px 6px 18px;
+}
+
+#cart-content .vmz-add-cart, .cart-button{
+color: #156FC2;
+font-weight: bold;
+padding: 6px 10px 6px 10px;
+border-radius: 5px;
+font-size:18px;
+background: url(../images/popup-list-style-title.png) 0 no-repeat;
+}
+
+#cart-content .vmz-add-cart:hover{
+	background:#CE552A;
+}
+
+
+
+#cart-body {
+    //height: 154px;
+    overflow: auto;
+    width: 978px;
+    border: 1px solid #ddd;
+}
+#cart-content .action {
+    border: 0!important;
+}
+.opacity {
+    position: fixed;
+    background: #000;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    display: none;
+    opacity: 0.7;
+    transition:all 0.5s;
+    -webkit-transition:all 0.5s;
+}
+#view-cart-content {
+    position: fixed;
+    padding: 20px;
+    border-radius: 5px!important;
+    z-index: 999;
+    background: #fff;
+    width: 780px;
+    margin: 0 auto;
+    top: 100px;  
+    border: 9px solid #666;  -moz-border-radius: 3px;  -webkit-border-radius: 3px;    -moz-box-shadow: #333 0 0 7px;  -webkit-box-shadow: #333 0 0 7px;  box-shadow: #333 0 0 7px;
+  //transition:all 0.5s;
+   // -webkit-transition:all 0.5s;
+}
+
+#view-cart-content header {
+    color: #000000;
+    font-weight: bold;
+}
+
+#img-close-cart {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+}
+
+#ajax-load-cart {
+    text-align: center;
+    position: fixed;
+    display: none;
+    z-index: 99;
+    border: 20px solid #FFF;
+    border-radius: 5px;
+    transition:all 0.5s;
+    -webkit-transition:all 0.5s;
+}
+
+#cart-title .item {
+    line-height: 30px;
+}
+
+.cursor.register {
+    padding: 10px 67px 10px 30px;
+    background: url(../images/register.png) no-repeat 134px center #e2760f;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+	text-decoration:none;
+}
+
+.cursor.register:hover{
+	background-color:#f88e11
+}
+
+#view-cart-content .menu li a {
+    color: #444444;
+    font-size: 13px;
+    padding-left: 15px;
+    background: url(../images/popup-list-style-title.png) 0 no-repeat;
+    line-height: 25px;
+    width: 250px;
+    display: block;
+    float: left;
+}
+
+
+#cart-handles .title {
+    margin: 10px;
+}
